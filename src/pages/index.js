@@ -11,7 +11,15 @@ import Logo from "../images/logo.svg"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <div className={styles.textCenter}>
+    <div
+      style={{
+        width: "100vw",
+        height: "100vh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <img src={Logo} alt="$#*!" />
     </div>
   </Layout>
