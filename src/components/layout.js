@@ -64,7 +64,7 @@ const Wrapper = styled.div`
   width: 100%;
   height: 0;
   min-height: 100%;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

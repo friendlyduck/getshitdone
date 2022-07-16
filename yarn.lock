@@ -9223,7 +9223,7 @@ prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.6.1, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.5.10, prop-types@^15.6.1, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -9450,6 +9450,13 @@ react-side-effect@^2.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.2.tgz#dc6345b9e8f9906dc2eeb68700b615e0b4fe752a"
   integrity sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw==
+
+react-typeout@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-typeout/-/react-typeout-1.0.0.tgz#b1e15860051a625e75c5cd7ca0cd9022bb398996"
+  integrity sha512-A9RCIoU98aM6SxPa6jb9tKot8GK0NXCVoyYPwmnfgojGswSvFpL1ZztzzsmIOZ0CEAbFNIg60H/o0ZGmOuP51w==
+  dependencies:
+    prop-types "^15.5.10"
 
 react@^18.1.0:
   version "18.2.0"

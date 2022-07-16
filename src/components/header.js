@@ -27,7 +27,9 @@ const Info = styled.div`
   display: grid;
   gap: ${props => props.theme.space[2]};
   align-self: flex-end;
-  padding: 8vh 0;
+  padding: 0 0 4vh 0;
+  margin-bottom: 4vh;
+  border-bottom: 4px solid ${props => props.theme.colors.dark};
 
   @media (min-width: ${props => props.theme.breakpoints[0]}) {
     grid-column: 4 / span 2;
@@ -47,8 +49,8 @@ const Logo = styled.img`
   @media (min-width: ${props => props.theme.breakpoints[0]}) {
     grid-row: 2;
     align-self: flex-end;
-    position: sticky;
-    margin: 4vh 0;
+    justify-self: center;
+    margin: 0 auto 4vh auto;
   }
 `
 
@@ -69,11 +71,11 @@ const Title = styled.h1`
 `
 
 const Wrapper = styled.div`
-  height: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 
   @media (min-width: ${props => props.theme.breakpoints[0]}) {
+    height: 100%;
     column-gap: 24px;
     grid-template-rows: 1fr auto;
   }
