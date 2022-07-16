@@ -51,6 +51,13 @@ const Layout = ({ children }) => {
               background: theme.colors.primary,
             },
           body: {},
+          a: {
+            color: theme.colors.dark,
+            textDecoration: "underline",
+            "&:hover": {
+              textDecoration: "none",
+            },
+          },
         })}
       />
       <Wrapper>{children}</Wrapper>

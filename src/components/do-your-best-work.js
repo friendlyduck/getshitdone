@@ -2,7 +2,7 @@ import * as React from "react"
 import styled from "@emotion/styled"
 import TypeOut from "react-typeout"
 
-const words = ["creative", "inspiring", "collaborative"]
+const words = ["creative", "cool", "collaborative"]
 
 const DoYourBestWork = () => (
   <Wrapper>

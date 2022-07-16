@@ -65,7 +65,7 @@ const Logo = styled.img`
 `
 
 const Title = styled.h1`
-  font-size: clamp(2rem, 0.64rem + 10vw, 12rem);
+  font-size: clamp(80px, 0.64rem + 10vw, 12rem);
   line-height: 1;
   font-weight: ${props => props.theme.fontWeights.heading};
   grid-column: 2 / -2;
