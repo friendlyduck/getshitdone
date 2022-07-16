@@ -7,7 +7,8 @@ const words = ["creative", "inspiring", "collaborative"]
 const DoYourBestWork = () => (
   <Wrapper>
     <Title>
-      A <TypeOut words={words} /> <Break>place to do your best work.</Break>
+      A <TypeOut typeSpeed="100" pauseSpeed="500" words={words} />{" "}
+      <Break>place to do your best work.</Break>
     </Title>
   </Wrapper>
 )
