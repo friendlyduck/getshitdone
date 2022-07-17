@@ -9,8 +9,9 @@ export default {
   },
   fontSizes: [14, 16, 18, 20, 24, 32, 40, 64, 72],
   colors: {
-    primary: "#F5DF4D",
-    secondary: "#16161d",
+    // primary: "#F5DF4D", // color of the year "illuminating"
+    primary: "#F3D82B", // "safety yellow"
+    secondary: "#939597",
     dark: "#16161d",
     light: "#fff",
     // modes: {

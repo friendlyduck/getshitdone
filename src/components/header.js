@@ -52,13 +52,9 @@ const InfoContent = styled.span`
 `
 
 const Logo = styled.img`
-  grid-column: 2 / span 1;
+  grid-column: 2 / span 2;
   margin-top: 8vh;
   transition: all 0.24s ease;
-
-  &:hover {
-    transform: rotate(90deg) scale(2);
-  }
 
   @media (min-width: ${props => props.theme.breakpoints[1]}) {
     grid-column: 1 / span 1;
