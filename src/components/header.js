@@ -32,6 +32,17 @@ const Header = () => (
       <InfoTitle>Current Occupancy</InfoTitle>
       <InfoContent>24 / 40</InfoContent>
     </Info>
+    {/* <BookingForm>
+      <Label>I need a&hellip;</Label>
+      <Select>
+        <option>Desk</option>
+        <option>Meeting room</option>
+        <option>Creative space</option>
+        <option>Media studio</option>
+      </Select>
+      <Date type="date" />
+      <Submit type="submit">£19.00 Book</Submit>
+    </BookingForm> */}
   </Wrapper>
 )
 
@@ -81,7 +92,7 @@ const Title = styled.h1`
   line-height: 1;
   font-weight: ${props => props.theme.fontWeights.heading};
   grid-column: 2 / -2;
-  margin: 8vh 0 auto 0;
+  margin: 12vh 0 auto 0;
 
   @media (min-width: ${props => props.theme.breakpoints[0]}) {
     grid-column: 3 / -1;
