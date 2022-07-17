@@ -9,12 +9,14 @@ const Gallery = () => (
         <Item>Desks</Item>
         <Item>Acoustic pods</Item>
         <Item>Meeting rooms</Item>
+        <Item>Worksop space</Item>
+        <Item>Media studio</Item>
       </Links>
     </Navigation>
     <Images>
-      <ImageOne src="https://via.placeholder.com/1920x1080?text=Image"></ImageOne>
-      <ImageTwo src="https://via.placeholder.com/1920x1080?text=Image"></ImageTwo>
-      <ImageThree src="https://via.placeholder.com/1920x1080?text=Image"></ImageThree>
+      <ImageOne src="https://images.unsplash.com/photo-1531904300735-5f40721f712f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80"></ImageOne>
+      <ImageTwo src="https://images.unsplash.com/photo-1603024594199-4107b1e69b7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"></ImageTwo>
+      <ImageThree src="https://images.unsplash.com/photo-1464029902023-f42eba355bde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"></ImageThree>
     </Images>
   </Wrapper>
 )
