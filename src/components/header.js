@@ -3,12 +3,23 @@ import styled from "@emotion/styled"
 
 import LogoImg from "../images/logo.svg"
 
+// const S = ["S", "$"]
+// const H = ["h", "#"]
+// const I = ["i", "*"]
+// const T = ["t", "!"]
+
 const Header = () => (
   <Wrapper>
     <Logo src={LogoImg} alt="$#*!" />
     <Title>
       <span>Get.</span>
-      <span>Shit.</span>
+      <span>
+        Shit.
+        {/* <TypeOut words={S} pauseSpeed="2" typeSpeed="2" />
+        <TypeOut words={H} pauseSpeed="2" typeSpeed="2" />
+        <TypeOut words={I} pauseSpeed="2" typeSpeed="2" />
+        <TypeOut words={T} pauseSpeed="2" typeSpeed="2" />. */}
+      </span>
       <span>Done.</span>
     </Title>
     <Info>
@@ -82,6 +93,9 @@ const Title = styled.h1`
 
   span {
     display: block;
+  }
+  .react-typeout {
+    display: inline-block !important;
   }
 `
 

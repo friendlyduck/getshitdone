@@ -30,7 +30,7 @@ const Images = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
-  @media (min-width: ${props => props.theme.breakpoints[0]}) {
+  @media (min-width: ${props => props.theme.breakpoints[1]}) {
     grid-column: 3 / span 3;
     min-height: 100vh;
   }
@@ -57,18 +57,31 @@ const Navigation = styled.div`
   align-self: stretch;
   justify-content: center;
   padding: 0 4vw;
+  overflow: auto;
 
-  @media (min-width: ${props => props.theme.breakpoints[0]}) {
+  @media (min-width: ${props => props.theme.breakpoints[1]}) {
     grid-column: 1 / span 2;
     min-height: 100vh;
   }
 `
 const Title = styled.span`
-  color: ${props => props.theme.colors.light};
+  display: none;
+
+  @media (min-width: ${props => props.theme.breakpoints[1]}) {
+    color: ${props => props.theme.colors.light};
+    display: block;
+    padding: 8px 16px;
+  }
 `
-const Links = styled.ul``
+const Links = styled.ul`
+  display: flex;
+  width: 100vw;
+  @media (min-width: ${props => props.theme.breakpoints[1]}) {
+    display: block;
+    width: auto;
+  }
+`
 const Item = styled.li`
-  font-size: 32px;
   font-weight: ${props => props.theme.fontWeights.heading};
   color: ${props => props.theme.colors.primary};
   background: rgba(255, 255, 255, 0);
@@ -76,7 +89,14 @@ const Item = styled.li`
   cursor: pointer;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.16);
+    color: ${props => props.theme.colors.dark};
+    background: ${props => props.theme.colors.secondary};
+  }
+
+  @media (min-width: ${props => props.theme.breakpoints[1]}) {
+    flex: 0 auto;
+    font-size: 32px;
+    white-space: nowrap;
   }
 `
 
